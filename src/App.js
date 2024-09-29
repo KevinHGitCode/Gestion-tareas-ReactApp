@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ClockInLine from './componentes/ClockInLine'
 
 function App() {
   return (
@@ -7,8 +8,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>Hola, React</code>
         </p>
+        <ClockInLine/>
+        <br/>
+        <br/>
         <a
           className="App-link"
           href="https://reactjs.org"
